@@ -1,2 +1,2 @@
-# BIngo
+# Bingo
 The best Bingo
