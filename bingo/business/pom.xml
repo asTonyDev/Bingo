@@ -1,0 +1,67 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>it.bingo</groupId>
+		<artifactId>bingo</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>business</artifactId>
+
+	<dependencies>
+
+		<!-- Module dependency -->
+
+		<dependency>
+			<groupId>it.bingo.model</groupId>
+			<artifactId>model</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>it.bingo.utility</groupId>
+			<artifactId>utility</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+		<!-- End Module dependency -->
+
+		<!-- Other dependency-->
+		
+		
+		<!-- JUNIT dependency -->
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.13.2</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- utils for Junit 
+		
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-params</artifactId>
+			<version>5.8.1</version>
+			<scope>test</scope>
+		</dependency>
+		
+		-->
+		
+		<!-- End JUNIT dependency -->
+
+		<!-- Utils -->
+		<dependency>
+			<groupId>org.apache.maven.shared</groupId>
+			<artifactId>maven-shared-utils</artifactId>
+			<version>3.3.4</version>
+		</dependency>
+
+		<!-- End Other dependency -->
+
+	</dependencies>
+
+
+	<version>1.0</version>
+	<groupId>it.bingo.business</groupId>
+</project>
