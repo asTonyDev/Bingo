@@ -1,0 +1,69 @@
+## Generic files to ignore
+*~
+**/*~
+*.lock
+**/*.lock
+*.DS_Store
+**/*.DS_Store
+
+#kdiff3 backup file 
+*.orig
+
+## Maven
+/target
+target
+**/target/**
+m2target
+
+## ignore file created by eclipse
+.settings
+**/.settings
+.metadata
+.project
+*.project
+**/*.project
+
+.externalToolBuilders
+.classpath
+.settings
+.project
+.springBeans
+*.factorypath
+
+.classpath
+*.classpath
+**/*.classpath
+
+*/bin/*
+
+#ignore thumbnails created by windows
+Thumbs.db
+#Ignore files build by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.dll
+*.lib
+*.sbr
+*.iml
+*.idea
+
+
+#Ignore files build by IntelliJ
+*.iml
+*.idea
+SROAKSDEV01
